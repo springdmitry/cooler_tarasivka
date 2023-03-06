@@ -1,0 +1,107 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 20px;
+    border: 5px solid #457B9D;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 0 0 2px black;
+    
+}
+
+#hero {
+    padding: 100px 0 100px;
+    background-image: url("images/sunset.jpg");
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box; 
+    border-radius: 15px 15px 0 0;
+        
+ }
+#midl {
+    border-top: 5px solid #457B9D;
+    border-bottom: 5px solid #457B9D;
+    padding: 40px 0 0 20px;
+    background: linear-gradient(#cdb4db 40%, #ffbe0b, #5a189a);
+    
+    
+}
+h3 {
+    margin: 30px 0 50px 0;
+    font-size: 25px
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid #457B9D;
+    border-radius: 15px;
+}
+
+img:active {
+    object-fit: contain;
+    object-position: center;
+    height: auto;
+    width: 500px;
+}
+
+.act {
+   font-size: 20px;
+    
+}
+
+#activities {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    justify-content: center;
+    font-size: 12pt;
+    background: inherit;
+    ;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+#wiki:hover {
+    width: 105px;
+    height: 105px;
+    }
+#wiki {
+    margin: 0 80px 0 0;
+    background: url("images/wiki-logo.png");
+    border: none;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+}
+
+#dim {
+   border-radius: 10px;
+   height: 250px;
+   width: auto;
+}
+#guide {
+    margin: 100px 300px; 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:  space-between;
+    align-items: center;
+    border-bottom: 5px solid #1D3557;
+    background-color: #457B9D;
+    border-radius: 10px;
+}
