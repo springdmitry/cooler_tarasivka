@@ -31,7 +31,7 @@ body {
 #midl {
     border-top: 5px solid #457B9D;
     border-bottom: 5px solid #457B9D;
-    //* padding: 40px 5px 20px; */
+    /** padding: 40px 5px 20px; */
     background: linear-gradient(#cdb4db 40%, #ffbe0b, #5a189a);
     
     
