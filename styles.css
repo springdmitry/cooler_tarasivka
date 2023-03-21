@@ -20,7 +20,7 @@ body {
 }
 
 #hero {
-    padding: 100px 0 50px;
+    padding: 150px 0;
     background-image: url("images/sunset.jpg");
     background-size: cover;
     background-position: center;
@@ -53,7 +53,7 @@ img:active {
     object-fit: contain;
     object-position: center;
     height: auto;
-    width: 500px;
+    width: 400px;
 }
 
 .act {
@@ -96,7 +96,7 @@ img:active {
    width: auto;
 }
 #guide {
-    margin: 100px 300px; 
+    margin: 100px auto; 
     display: flex;
     flex-direction: row-reverse;
     justify-content:  space-between;
