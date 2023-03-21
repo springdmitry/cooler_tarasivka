@@ -20,7 +20,7 @@ body {
 }
 
 #hero {
-    padding: 150px 0;
+    padding: 150px 0 100px;
     background-image: url("images/sunset.jpg");
     background-size: cover;
     background-position: center;
