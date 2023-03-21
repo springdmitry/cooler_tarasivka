@@ -96,7 +96,7 @@ img:active {
    width: auto;
 }
 #guide {
-    margin: 100px auto; 
+    margin: 100px 150px; 
     display: flex;
     flex-direction: row-reverse;
     justify-content:  space-between;
