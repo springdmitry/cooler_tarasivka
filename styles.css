@@ -43,6 +43,7 @@ h3 {
 
 img {
     width: 300px;
+    min-width: 30%;
     height: 300px;
     object-fit: cover;
     border: 2px solid #457B9D;
