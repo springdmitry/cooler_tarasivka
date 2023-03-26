@@ -50,7 +50,7 @@ img {
     border-radius: 15px;
 }
 
-img:active {
+img:hover {
     object-fit: contain;
     object-position: center;
     height: auto;
